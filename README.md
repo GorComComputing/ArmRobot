@@ -1,6 +1,6 @@
 # Промышленный робот манипулятор на ESP32
 
-![ArmRobot.jpg](ArmRobot.jpg)
+![img/ArmRobot.jpg](img/ArmRobot.jpg)
 
 
 В основе промышленного робота лежит микроконтроллер ESP32.
@@ -25,13 +25,19 @@ Wi-Fi модуль может работать в режимах:
 Web-сервер работает на порту 80.
 
 ```
-// SSID и пароль хранятся во внешнем файле password.ino в переменных:
+// SSID и пароль хранятся во внешнем файле secret.ino в переменных:
 // for AP 
 const char* ssid_AP = "********";  
 const char* password_AP = "********";
 // for STA
 const char* ssid = "********";  
 const char* password = "********";
+```
+
+```
+# Для автоматческого добавление на GitHub
+$ python make.py git "Комментарий"
+
 ```
 
 - Написан на языке C++ Arduino
