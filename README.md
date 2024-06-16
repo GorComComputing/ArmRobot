@@ -37,7 +37,6 @@ const char* password = "********";
 ```
 # Для автоматческого добавление на GitHub
 $ python make.py git "Комментарий"
-
 ```
 
 - Написан на языке C++ Arduino
