@@ -5,7 +5,7 @@ import secret
 
 
 userGit = "GorComComputing"
-repoGit = "TFT_Terminal"
+repoGit = "ArmRobot"
 
 
 if len (sys.argv) < 2:
